@@ -1,0 +1,225 @@
+body,
+h1, h2, h3, h4, h5, h6, hr,
+p, blockquote, dl, dd, ul, ol, li
+pre, form, fieldset, legend, button, input,
+textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1',Arial,'\9ED1\4F53','\5B8B\4F53'; }
+
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+  font-size: 100%; }
+
+input, select {
+  border: none; }
+
+em {
+  font-style: normal; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none; }
+
+:focus {
+  outline: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+li {
+  list-style-type: none; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  position: relative; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.view {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: hidden; }
+
+
+/*logopage*/
+.logopage {
+  background: url(../images/logpage-bg.jpg) center bottom #2472f3 no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: 100%; }
+  .logopage .logo {
+    width: 100%;
+    height: 1.50rem;
+    margin-top: 1.22rem;
+    background: url(../images/logpage-logo.png) center center no-repeat;
+    background-size: 2.23rem 1.5rem; }
+  .logopage .mode-form {
+    margin-top: 0.78rem; }
+    .logopage .mode-form > div {
+      width: 5.54rem;
+      height: 0.90rem;
+      margin: 0 auto;
+      margin-bottom: 0.52rem; }
+      .logopage .mode-form > div .ipt {
+        background: transparent;
+        color: #fff;
+        width: 70%;
+        margin-left: .90rem;
+        font-size: 0.28rem;
+        margin-top: 0.23rem; }
+        .logopage .mode-form > div .ipt::-webkit-input-placeholder {
+          color: #bccefa; }
+    .logopage .mode-form .mf-account, .logopage .mode-form .mf-password {
+      border: 0.02rem solid #ffffff;
+      border-radius: .50rem; }
+    .logopage .mode-form .mf-account {
+      background: url("../images/logpage_act.png") 0.4rem center no-repeat;
+      background-size: 0.38rem 0.44rem; }
+    .logopage .mode-form .mf-password {
+      background: url("../images/logpage_password.png") 0.4rem center no-repeat;
+      background-size: 0.39rem 0.43rem; }
+    .logopage .mode-form .code-wrap {
+      background: url("../images/logpage_code.png") 0.4rem center no-repeat;
+      background-size: 0.43rem 0.43rem;
+      border: 0.02rem solid #ffffff;
+      border-radius: 0.50rem;
+      width: 3.76rem;
+      float: left;
+      height: 0.90rem; }
+    .logopage .mode-form .codeImg {
+      float: right;
+      margin-top: 0.18rem;
+      width: 1.29rem;
+      height: 0.57rem; }
+    .logopage .mode-form .mf-logbtn input {
+      border-radius: 0.50rem;
+      background: #488dfd;
+      text-align: center;
+      line-height: 0.90rem;
+      color: #fff;
+      font-size: .36rem;
+      width: 5.54rem;
+      height: 0.90rem; }
+.ui-nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 0.2rem;
+  border-bottom: 0.01rem solid #ebebeb; }
+.ui-nav a {
+  display: block;
+  width: 20%;
+  text-align: center;
+  line-height: 0.68rem;
+  height: 0.68rem;
+  font-size: 0.24rem;
+  color: #323232;
+  border-bottom: 0.04rem solid #fff; }
+.ui-nav a.active {
+  color: #347aea;
+  border-bottom: 0.04rem solid #347aea; }
+
+
+.ui-ultabs ul {
+  height: 100%;
+  overflow-y: auto; }
+.ui-ultabs ul li {
+  border-bottom: 0.01rem solid #ebebeb; }
+.ui-ultabs ul li.cur .innerinfo {
+  display: block; }
+.ui-ultabs ul li.cur .dir {
+  background-position: 0 -0.41rem; }
+.ui-ultabs ul .innerinfo {
+  display: none; }
+.ui-ultabs ul a {
+  line-height: 1rem;
+  height: 1rem;
+  font-size: 0.3rem;
+  display: block; }
+.ui-ultabs ul .txt {
+  color: #323232;
+  margin-left: 0.3rem; }
+.ui-ultabs ul .icon {
+  background-size: 100% !important;
+  width: 0.46rem;
+  height: 0.46rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.24rem; }
+.ui-ultabs ul .dir {
+  float: right;
+  width: 0.28rem;
+  height: 0.15rem;
+  background: url("../images/vs_icon.png") no-repeat;
+  background-size: 100%;
+  background-position: 0 -0.72rem;
+  display: inline-block;
+  margin-right: 0.25rem;
+  margin-top: 0.43rem; }
+
+.visitorpage {
+  height: 100%; }
+.visitorpage .vs-bd {
+  width: 100%;
+  height: 90%;
+  overflow-y: auto; }
+.visitorpage .vs-tabs {
+  height: 100%; }
+.visitorpage .vs-tabs ul li .icon {
+  background: url(../images/vs_list.png) no-repeat; }
+.visitorpage .vs-tabs ul li:nth-child(1) .icon {
+  background-position: 0 0; }
+.visitorpage .vs-tabs ul li:nth-child(2) .icon {
+  background-position: 0 -0.99rem; }
+.visitorpage .vs-tabs ul li:nth-child(3) .icon {
+  background-position: 0 -1.99rem; }
+.visitorpage .vs-tabs ul li:nth-child(4) .icon {
+  background-position: 0 -2.98rem; }
+.visitorpage .vs-tabs ul li:nth-child(5) .icon {
+  background-position: 0 -3.98rem; }
+
+.vs-list .icon {
+  background: url("../images/vs_list.png") no-repeat; }
+.vs-list .icon_b {
+  background-position: 0 -0.99rem; }
+.vs-list .icon_c {
+  background-position: 0 -1.99rem; }
+.vs-list .icon_d {
+  background-position: 0 -2.98rem; }
+.vs-list .icon_f {
+  background-position: 0 -3.98rem; }
+
+.ui-ultabs.show{ -webkit-animation:arr 0.8s linear;}
+@-webkit-keyframes arr{
+  0% { opacity:0;}
+  100% {opacity:1;}
+}
