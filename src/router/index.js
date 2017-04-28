@@ -8,6 +8,6 @@ export default new Router({
   routes: [
     {path: '/logo', name: 'logo', component: require('../views/logo')},
     {path:'/visitor',name:'visitor',component:require("../views/visitor")},
-    {path:'*', redirect:'/logo'}
+    {path:'*', redirect:'/visitor'}
   ]
 })
