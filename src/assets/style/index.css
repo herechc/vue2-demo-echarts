@@ -61,7 +61,7 @@ body {
 
 /*logopage*/
 .logopage {
-  background: url(../images/logpage-bg.jpg) center bottom #2472f3 no-repeat;
+  background: center bottom #2472f3 no-repeat;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -70,7 +70,6 @@ body {
     width: 100%;
     height: 1.50rem;
     margin-top: 1.22rem;
-    background: url(../images/logpage-logo.png) center center no-repeat;
     background-size: 2.23rem 1.5rem; }
   .logopage .mode-form {
     margin-top: 0.78rem; }
