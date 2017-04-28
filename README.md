@@ -1,7 +1,7 @@
 vue2-demo-echarts
 -----------------
 说明:<br>
- > 一个点击显示Echarts的移动端页面<br>
+ > 一个切换Echarts的移动端页面<br>
 
 更新日志:<br>
  > 2017/04/28:echarts显示,点击切换<br>
